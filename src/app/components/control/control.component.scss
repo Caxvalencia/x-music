@@ -1,0 +1,19 @@
+.control {
+  background-color: #222628;
+  border: 4px solid #5a585d;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  box-shadow: -8px -8px 12px 1px #b9d7d7, 8px 8px 12px 1px #554862;
+  color: #5a585d;
+
+  &--small {
+    height: 40px;
+    width: 40px;
+  }
+
+  &__icon {
+    color: #1fd9f1;
+    font-size: 40px;
+  }
+}
